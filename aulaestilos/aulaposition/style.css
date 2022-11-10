@@ -1,0 +1,25 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        height: 100px;
+    }
+
+
+    .pai {
+    width: 200px;
+    height: 200px;
+    background-color: crimson ;
+    position: relative;
+    margin: 20vh;
+    position: absolute;
+
+    }
+    .filho{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+
+    }
