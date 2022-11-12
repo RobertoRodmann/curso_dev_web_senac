@@ -1,53 +1,106 @@
-
-    *{ 
-        margin: 0px;
-        padding: 0px;
-
-
-    }   
-    body{
-        height: 100vh;
-        width: 100vw;
-        font-family: 'Roboto', Arial, Helvetica, sans-serif;
-        font-size:14px;
-        display: flex;
-        flex-direction: column;
-       
-        
+* {
+    margin: 0px;
+    padding: 0px;
 
 
-    }
-    .header-content{
-        background-color:red;
-        display: flex;
-        align-items: center;
-        height: 60px;
-        justify-content: flex-end;
-        padding-right: 20px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-content {
+    background-color: rgb(216, 209, 238);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: flex-end;
+    padding-right: 20px;
+
+}
+
+.main-content {
+    background-color: rgb(68, 63, 63);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input-text {
+    min-width: 35vw;
+    height: 30px;
+    border-radius: 40px;
 
 
-        
-    }   
-    .main-content{
-        background-color: black;
-        flex-grow: 1 ;
+}
 
-    }    
-    .footer-content{
-        background-color: blueviolet;
-       
-    }
 
-    .link{           
-            text-decoration: none;
-            padding-left: 10px;
-            color:#393939;
-    }
-    .btn{
-        padding: 10px 10px;
-        border-radius: 5px;
-        margin-left: 10px;
-        background-color: aqua;
-        color:aliceblue;
+.footer-content {
+    background-color: rgb(6, 3, 8);
 
-    }    
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    fill: aqua;
+    border-radius: 80px;
+    padding: 50px;
+    background-color: transparent;
+    transition: 0.25;
+
+}
+
+svg:hover {
+    background-color: rgba(153, 153, 153, 0.315);
+
+}
+
+.link {
+    text-decoration: none;
+    padding-left: 12px;
+    color: #393939;
+
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: aqua;
+    color: aliceblue;
+    text-decoration: none !important;
+    transition: 0.2;
+
+}
+
+.botoes {
+    display: flex;
+}
+
+.main-btn {
+    margin: 30px 20px;
+    padding: 10px;
+    color: black;
+    background-color: #393939;
+    border-radius:  30px; 
+ }
+ .section{
+
+ 
+
+    display: flex;
+ }
